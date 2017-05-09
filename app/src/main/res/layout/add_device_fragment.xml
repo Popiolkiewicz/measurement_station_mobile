@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/deviceNameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/device_name_field_title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/deviceSerialNumberField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/device_serial_number_field_title"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/addDeviceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_device_button_title" />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/light</item>
+        <item name="colorPrimaryDark">@color/dark</item>
+        <item name="colorAccent">@color/dark</item>
+        <item name="buttonStyle">@style/ButtonsTheme</item>
+        <item name="android:textViewStyle">@style/TextViewTheme</item>
+        <item name="editTextStyle">@style/EditTextTheme</item>
+    </style>
+
+    <style name="ButtonsTheme" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="TextViewTheme" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textColorHighlight">#FFFFFF</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorLink">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="EditTextTheme" parent="@android:style/Widget.EditText">
+        <item name="android:textColorHighlight">#FFFFFF</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorHint">#AAAAAA</item>
+        <item name="android:textColorLink">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="CustomProgressDialog" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">Przetwarzanie danych...</item>
+        <item name="DialogSpotColor">@color/light</item>
+        <item name="DialogSpotCount">8</item>
+    </style>
+</resources>
